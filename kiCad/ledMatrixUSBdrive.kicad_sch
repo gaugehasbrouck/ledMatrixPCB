@@ -1,0 +1,10943 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c5147268-b0db-40ca-bf3f-a068d41b2c39")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC595"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_1_0"
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Microchip_ATtiny:ATtiny84-20M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ATtiny84-20M"
+				(at 2.54 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, QFN-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AVR 8bit Microcontroller tinyAVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATtiny84-20M_0_1"
+				(rectangle
+					(start -12.7 -20.32)
+					(end 12.7 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ATtiny84-20M_1_1"
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "XTAL1/PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "XTAL2/PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "~{RESET}/PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -12.7 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -15.24 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -17.78 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "AREF/PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -5.08 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -7.62 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 22.86 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MY_SYMBOL_LIBRARY:PCB_USB_CONN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.016 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.016 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.016 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB_USB_CONN_1_1"
+				(rectangle
+					(start 2.54 5.08)
+					(end 11.43 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "USB"
+					(at 9.144 -0.254 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 3.81 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0956de84-6906-4489-9b32-a76673910c1e")
+	)
+	(junction
+		(at 166.37 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2d2099-1f3e-43ba-9ff2-936de13c54fc")
+	)
+	(junction
+		(at 191.77 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fad6d4b-4cb7-4cee-9c46-b8af0b066d02")
+	)
+	(junction
+		(at 173.99 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb537d7-f94e-4bf0-8e47-4b5fde6b6fcf")
+	)
+	(junction
+		(at 191.77 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132e9689-dbf5-4077-8acc-96a9cee45944")
+	)
+	(junction
+		(at 179.07 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "160f52cb-0ab7-4c8c-8cae-ff7519d2235e")
+	)
+	(junction
+		(at 200.66 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187d6669-479d-42f9-a468-17a33caeb2b2")
+	)
+	(junction
+		(at 163.83 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19cf62c5-8405-4098-959b-3f8be1120921")
+	)
+	(junction
+		(at 181.61 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a754e88-ceab-4ba7-9f23-d634f3888fd8")
+	)
+	(junction
+		(at 171.45 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c6de910-bb9d-421a-95b8-80f63df2cac6")
+	)
+	(junction
+		(at 181.61 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cd8547e-133a-4e93-a07e-f47c57101a35")
+	)
+	(junction
+		(at 176.53 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d24d12b-4d0c-433d-8e5f-b7f41bb5b74c")
+	)
+	(junction
+		(at 176.53 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f131312-ae23-4d43-a9a7-af991245de60")
+	)
+	(junction
+		(at 186.69 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f28b035-010b-432e-afa7-be0eec0e9cd6")
+	)
+	(junction
+		(at 189.23 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "201eef1a-4f28-4eae-9ddf-c4163f1ceb45")
+	)
+	(junction
+		(at 171.45 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2458331e-4dca-4bbe-8c80-478438e06ecc")
+	)
+	(junction
+		(at 191.77 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25757100-9a69-4050-abd8-84c25b54afc1")
+	)
+	(junction
+		(at 181.61 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e2a32d-a080-449f-86d5-0bfc8cf32835")
+	)
+	(junction
+		(at 171.45 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2962ff5f-3f01-44e8-9593-df11d1657518")
+	)
+	(junction
+		(at 194.31 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c30816b-a2d6-4e57-96b7-8a67391645c1")
+	)
+	(junction
+		(at 200.66 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d92f0c6-bf68-40a6-9b8d-d02be6d80285")
+	)
+	(junction
+		(at 168.91 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dd5c1a7-aa89-482a-b463-664df3eedf56")
+	)
+	(junction
+		(at 161.29 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ddb89ec-391b-47a7-93ec-247fe27efe3c")
+	)
+	(junction
+		(at 163.83 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed47a22-ed42-4b31-8e78-0c27ced7a825")
+	)
+	(junction
+		(at 163.83 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f450bc2-ece7-47b2-b8aa-858f827278a5")
+	)
+	(junction
+		(at 173.99 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fc4a67d-6c9b-4c95-94d5-4157013e2c1b")
+	)
+	(junction
+		(at 179.07 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31c8d8f8-dffd-498a-99de-395dead6e100")
+	)
+	(junction
+		(at 163.83 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3513821e-8f32-4523-8976-f28f7e2c9fbe")
+	)
+	(junction
+		(at 168.91 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3586f481-316a-40f3-86e8-71ddc93e2fcf")
+	)
+	(junction
+		(at 200.66 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366130c3-8dfe-4cbd-9dc5-e05d11beeb5e")
+	)
+	(junction
+		(at 161.29 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37b13cc1-34c2-4946-87f3-427dbcee23ae")
+	)
+	(junction
+		(at 171.45 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f34a52-59bc-420e-86be-b27dcc468b9f")
+	)
+	(junction
+		(at 194.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c80c692-2ba0-47ea-bb3f-a6baf2c17538")
+	)
+	(junction
+		(at 186.69 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c8c6a20-b759-4bb7-8e05-496780abc6f6")
+	)
+	(junction
+		(at 191.77 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e777b9-4812-424b-a868-8dad2e62eb81")
+	)
+	(junction
+		(at 184.15 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47505d57-814c-4ea3-8aa1-b0048342cd09")
+	)
+	(junction
+		(at 189.23 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dedfb26-4337-4790-9ed9-16b207c89860")
+	)
+	(junction
+		(at 176.53 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5134e095-7ace-479a-8d1c-aaeedca0b4f8")
+	)
+	(junction
+		(at 166.37 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c52cda-5b8f-41a1-80be-60e6a7c8dee3")
+	)
+	(junction
+		(at 144.78 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59782ef1-e376-41e0-886c-6739ea0b99b8")
+	)
+	(junction
+		(at 163.83 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b3ea404-1e9b-47a6-abd0-f00b0a7020a5")
+	)
+	(junction
+		(at 191.77 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d372dd1-855f-4c20-bd7b-8c283ac02ad8")
+	)
+	(junction
+		(at 179.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "602496f0-6872-423d-a805-7fc3aeaa48c1")
+	)
+	(junction
+		(at 194.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "615698e1-74f0-4f8e-b749-bae156794ce1")
+	)
+	(junction
+		(at 186.69 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616d206c-a553-431e-9fc1-f5c33011f4bd")
+	)
+	(junction
+		(at 181.61 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61943127-013e-45a1-ab93-90c39d01abc9")
+	)
+	(junction
+		(at 173.99 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654625f7-6739-4874-9237-e62001bae244")
+	)
+	(junction
+		(at 184.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662b4b96-6d7b-44e1-b635-6619669a54d7")
+	)
+	(junction
+		(at 102.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674e6622-6df6-47c8-86b6-e7b6b1e91b90")
+	)
+	(junction
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "695f136b-811f-40d5-98f5-43d4f23f8b99")
+	)
+	(junction
+		(at 179.07 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b1b4e88-4942-43be-b807-b800293cef66")
+	)
+	(junction
+		(at 128.27 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b471a34-50cb-4124-8896-c0d7fa54874c")
+	)
+	(junction
+		(at 184.15 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d914706-defb-4a6e-9047-609591f42cc4")
+	)
+	(junction
+		(at 176.53 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5867ac-c3f8-45da-9c62-c33b65b9939e")
+	)
+	(junction
+		(at 195.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7153ed5d-e0ff-4fca-abeb-a21a8f9b1bb5")
+	)
+	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730dcf10-259a-4475-b21f-a06c74d04d74")
+	)
+	(junction
+		(at 194.31 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "742c537d-ba25-4ba8-af1e-c538b3ae78b3")
+	)
+	(junction
+		(at 166.37 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "747f53c1-e9c5-443b-bb07-f32526a0845c")
+	)
+	(junction
+		(at 163.83 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a504559-c3ac-4a77-9b2b-412e8a1718ee")
+	)
+	(junction
+		(at 191.77 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cefcac2-ddfc-4dea-878d-3cc2bd9a9f04")
+	)
+	(junction
+		(at 200.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfc20ce-4756-4cb9-a25c-bf9ab1d2ea4c")
+	)
+	(junction
+		(at 128.27 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db4bec4-961c-40fc-ae3b-95e188919e33")
+	)
+	(junction
+		(at 161.29 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f241090-34da-4aac-9d10-e014a6d1ed93")
+	)
+	(junction
+		(at 176.53 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8577c013-5cb6-43e0-a628-2cd12ef5c0da")
+	)
+	(junction
+		(at 200.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d25a4d-eb5e-4ed8-b2f1-bc724bc79499")
+	)
+	(junction
+		(at 176.53 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b0c2b21-20ed-410c-95d6-6c6964f1b931")
+	)
+	(junction
+		(at 186.69 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bfcfdcd-1a98-4081-9efc-b940548bb39b")
+	)
+	(junction
+		(at 184.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c2e03a1-eab4-4a04-9798-d24db0074346")
+	)
+	(junction
+		(at 166.37 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef02d30-9c95-4713-b09e-561e3ead76c6")
+	)
+	(junction
+		(at 166.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "904bceb2-2ea6-4cd3-9098-c9e779952edc")
+	)
+	(junction
+		(at 171.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937ebc75-4984-4c2d-9500-4ffd1df85326")
+	)
+	(junction
+		(at 186.69 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95771d9f-c488-46b1-a5ef-65c306d95e18")
+	)
+	(junction
+		(at 171.45 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979559ee-401a-4e97-af29-ca0f4ae3fd8b")
+	)
+	(junction
+		(at 179.07 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac19402-9e7f-40db-b647-5fb6bbdeb2da")
+	)
+	(junction
+		(at 173.99 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da05a31-eece-4877-9c69-f82a13527fb5")
+	)
+	(junction
+		(at 189.23 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a121c34f-0490-44ca-827a-0a32fb9c3840")
+	)
+	(junction
+		(at 179.07 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a125f911-4d93-4d55-9c18-3c97fb060c9f")
+	)
+	(junction
+		(at 106.68 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5826cbc-66fe-4d27-abb1-d3dd454d1169")
+	)
+	(junction
+		(at 168.91 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c4594a-5754-4a7b-955b-7d073372952d")
+	)
+	(junction
+		(at 189.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a675a140-45c5-4f18-a374-143543daa940")
+	)
+	(junction
+		(at 181.61 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abc9fc47-c9d1-42c9-9b1f-e34a8753f310")
+	)
+	(junction
+		(at 186.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac6e98a8-db83-4194-9696-056f333744e9")
+	)
+	(junction
+		(at 166.37 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae54f3f5-4308-4abb-bd06-4dde22bb80d5")
+	)
+	(junction
+		(at 162.56 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39a97c2-edce-417b-acb5-1881dce01345")
+	)
+	(junction
+		(at 186.69 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b606e95c-364e-4ef7-8f3a-88a4d8dd28f8")
+	)
+	(junction
+		(at 173.99 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6359049-8c32-4d5e-acfb-171ce75af9a9")
+	)
+	(junction
+		(at 166.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85e4825-4789-4a9b-b801-3c0648de205d")
+	)
+	(junction
+		(at 129.54 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba91b958-70b7-4537-a42b-888d84afc757")
+	)
+	(junction
+		(at 184.15 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb9b9eb8-790d-48f7-9268-ca2db976d6d4")
+	)
+	(junction
+		(at 189.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf63aa9-e694-4245-892a-72ac9079966f")
+	)
+	(junction
+		(at 200.66 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd06dd0b-d1e6-482c-a15c-92c432a17c4c")
+	)
+	(junction
+		(at 181.61 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bddf318f-b6a5-49df-a623-c185951183f3")
+	)
+	(junction
+		(at 168.91 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2afc16-c049-4236-8ec6-75d845759b08")
+	)
+	(junction
+		(at 171.45 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c40e330f-c987-4926-b1fa-ddb14c1eda50")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c543f186-dead-4758-89d6-b2d29b0fdace")
+	)
+	(junction
+		(at 161.29 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5acb450-01f6-4f08-979a-e748a4fdd769")
+	)
+	(junction
+		(at 161.29 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca56d29f-22fa-457f-87f2-66505777865b")
+	)
+	(junction
+		(at 184.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf0e07a1-832a-470e-b93f-6dfb9e47ce1d")
+	)
+	(junction
+		(at 171.45 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1bde84-08f6-4da0-903b-a2d54eeac8c3")
+	)
+	(junction
+		(at 168.91 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d08d8733-b5ed-4abf-b817-4a5c3f364e2e")
+	)
+	(junction
+		(at 184.15 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d148e650-a1f5-4312-9b24-54d41460510d")
+	)
+	(junction
+		(at 194.31 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d27b7946-ecc9-4a90-88aa-d36adf57024c")
+	)
+	(junction
+		(at 200.66 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d490a079-908c-47a3-a337-bca2029508cb")
+	)
+	(junction
+		(at 161.29 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d68506d5-d462-4603-903b-64b2e29f7fc7")
+	)
+	(junction
+		(at 179.07 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d78b2821-669f-4e7c-b762-68b340f5b9c3")
+	)
+	(junction
+		(at 161.29 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc34c806-922a-4de2-9a0a-e7809ee29e2a")
+	)
+	(junction
+		(at 189.23 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df975ee3-1788-4e77-9e35-18f297c88d73")
+	)
+	(junction
+		(at 161.29 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0031a12-4693-4b9a-b2da-18e096006275")
+	)
+	(junction
+		(at 181.61 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01cd695-2b64-456c-b797-04be38538be7")
+	)
+	(junction
+		(at 189.23 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16c97c1-2e74-4b1a-844f-39957adddfa5")
+	)
+	(junction
+		(at 168.91 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f6e456-e294-4b0d-b896-7c5a804c751e")
+	)
+	(junction
+		(at 173.99 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e799b0ce-812d-4f67-865f-342166e14f2e")
+	)
+	(junction
+		(at 181.61 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9244621-2a60-4fae-91cd-a82add7acc7a")
+	)
+	(junction
+		(at 168.91 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea701ead-e278-4c01-ad7b-e69ef5897d79")
+	)
+	(junction
+		(at 166.37 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb6f35c-e5e5-4233-979f-d9fab529d5d5")
+	)
+	(junction
+		(at 191.77 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee6715ef-550d-4d38-8496-c143bd52d546")
+	)
+	(junction
+		(at 194.31 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c30696-968c-405f-aa0e-a04703ebcac8")
+	)
+	(junction
+		(at 176.53 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20016cd-8a36-4ea1-829c-6e2db18755ea")
+	)
+	(junction
+		(at 173.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35ab755-55ad-40fa-925d-6a30207c1482")
+	)
+	(junction
+		(at 191.77 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4395894-e2af-476b-87ac-d61c9742e4bc")
+	)
+	(junction
+		(at 194.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd47c5b1-90ac-40a8-b1ca-cfeda6f1b602")
+	)
+	(junction
+		(at 176.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fea97009-c5ae-4871-a615-f12a2e58be56")
+	)
+	(wire
+		(pts
+			(xy 196.85 101.6) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e13a9d-9382-4168-a53b-e95e3fc45e63")
+	)
+	(wire
+		(pts
+			(xy 194.31 91.44) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0501b2f9-83e0-43fc-935e-7d6715fe02f8")
+	)
+	(wire
+		(pts
+			(xy 189.23 121.92) (xy 189.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095fc0ac-4c8a-467a-8837-0d7cf20a8c71")
+	)
+	(wire
+		(pts
+			(xy 181.61 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09823da6-a1a6-4b33-a54b-c01527424063")
+	)
+	(wire
+		(pts
+			(xy 186.69 161.29) (xy 191.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20fb7c-3cf2-4a06-82b2-a3eccf765e07")
+	)
+	(wire
+		(pts
+			(xy 138.43 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad755ed-1e02-4d8e-87d0-866fb6e7c166")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b66e805-b0b7-4863-8302-80db5b329e73")
+	)
+	(wire
+		(pts
+			(xy 166.37 143.51) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7afe80-3ea9-4435-9af6-c7ecb58b9985")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba8754e-885b-4bf4-9d0c-5889d0e59ad1")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bac6a3a-1054-4a6b-b1a5-d1fadb80ccc2")
+	)
+	(wire
+		(pts
+			(xy 171.45 121.92) (xy 173.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2162d2-c6a5-4fe6-8a67-fb790b74156c")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0d1d99-308b-4b41-8b24-6bd956efad88")
+	)
+	(wire
+		(pts
+			(xy 163.83 143.51) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddb6a6d-01bd-4046-95d9-a081025969d4")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117abf07-33eb-47e8-8653-140865c84e00")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b35660-fd18-4b77-ad78-4547a0e18a66")
+	)
+	(wire
+		(pts
+			(xy 191.77 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1535d8a8-956c-4011-b336-95b2e2569dff")
+	)
+	(wire
+		(pts
+			(xy 171.45 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16807297-0e46-4b6b-99df-4eefd7271c52")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1834514a-51e9-456a-828c-fe72ef3dd783")
+	)
+	(wire
+		(pts
+			(xy 173.99 133.35) (xy 173.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ccf2ea-6770-4800-bde7-5e12d3178468")
+	)
+	(wire
+		(pts
+			(xy 181.61 161.29) (xy 186.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190a09ab-b13a-4f90-9d64-a3a873a33808")
+	)
+	(wire
+		(pts
+			(xy 194.31 111.76) (xy 194.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937f201-91c7-4e62-ac00-80748a61f007")
+	)
+	(wire
+		(pts
+			(xy 161.29 161.29) (xy 166.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19825d55-86bd-428c-aaeb-587caef1c23a")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad09e78-660f-42ea-82f9-254b30c7cb47")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b91f2dd-e778-4f44-917e-26812b931619")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c651fd2-0b4c-4961-ba75-587b2779bf6f")
+	)
+	(wire
+		(pts
+			(xy 189.23 153.67) (xy 186.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d69bd7a-c238-49b6-8e0f-19e0f782b3dd")
+	)
+	(wire
+		(pts
+			(xy 181.61 129.54) (xy 186.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd65d65-fccf-4cbe-9998-d576f4df59e4")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e03fa1d-e1e8-41ec-9bdb-aa44c75f733e")
+	)
+	(wire
+		(pts
+			(xy 168.91 143.51) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef3bb36-71f2-471b-ae13-8e627de20a4e")
+	)
+	(wire
+		(pts
+			(xy 189.23 111.76) (xy 189.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1faac701-997a-4a72-82f2-5c99d94b6aef")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20292595-2660-419b-83be-5cfe9551a350")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22092882-7094-4638-89e1-cf129c3bc150")
+	)
+	(wire
+		(pts
+			(xy 176.53 140.97) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231930a5-b984-4d50-8c3d-9fb445fb5937")
+	)
+	(wire
+		(pts
+			(xy 207.01 57.15) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cd1659-b8a8-414b-9e66-838c3c4a48a5")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d6e2d0-b977-4317-900d-9dc1188ebe65")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25156a6a-9f8b-474b-943a-5d4e5fa6eb97")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26014520-0453-4f12-8e88-4d68a0aba949")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268127b6-0800-4627-96bd-f8ddf6d22696")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2847afcd-7bcd-40dd-a575-db3a2fc86d32")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2865c4f0-c0cd-460a-8361-da4764723e32")
+	)
+	(wire
+		(pts
+			(xy 161.29 153.67) (xy 163.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29326f19-610c-4da9-8222-2e52df66bf7a")
+	)
+	(wire
+		(pts
+			(xy 161.29 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac1308c-7e68-4491-88b5-e690769d22a6")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad43cb4-e280-4ce8-9038-e445f0e84acf")
+	)
+	(wire
+		(pts
+			(xy 186.69 140.97) (xy 191.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aef4130-98f2-4761-bd8c-50d3898df805")
+	)
+	(wire
+		(pts
+			(xy 184.15 143.51) (xy 184.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1e210-026e-4398-9403-e3478979341d")
+	)
+	(wire
+		(pts
+			(xy 173.99 73.66) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db33bb9-efeb-4c3a-ad77-550a5393f712")
+	)
+	(wire
+		(pts
+			(xy 181.61 133.35) (xy 184.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e666f54-71b7-454f-8f16-ffb09cf953e4")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f49d9b2-56c7-49cb-bbfa-66bff88cac20")
+	)
+	(wire
+		(pts
+			(xy 176.53 151.13) (xy 181.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e8a9fb-8444-4780-86b9-9b726db9f0b4")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331451c0-1c60-4003-b017-efd44ba146b7")
+	)
+	(wire
+		(pts
+			(xy 161.29 133.35) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338a43e0-f659-4cf2-b926-c75c2c9acee8")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339fc79c-3178-4d44-b13f-0f83e001d8de")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c924df-5b00-4676-ac73-451bc99e0469")
+	)
+	(wire
+		(pts
+			(xy 181.61 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34583630-4d37-4d43-8dc9-2e0a6853a0fb")
+	)
+	(wire
+		(pts
+			(xy 166.37 153.67) (xy 168.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35716767-8658-43a5-892f-ef7daa46f9ef")
+	)
+	(wire
+		(pts
+			(xy 187.96 69.85) (xy 194.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372c7d13-9da6-4fcb-927b-01c2226f3ac9")
+	)
+	(wire
+		(pts
+			(xy 181.61 151.13) (xy 186.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3931cb99-3fa7-4269-81ab-dbbe84235ec5")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3986d58c-abc6-4f2e-b81b-d323e7f21d4b")
+	)
+	(wire
+		(pts
+			(xy 171.45 111.76) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b78128-f1ff-4aa4-8bf1-37c77ff3e926")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.92) (xy 163.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad0a69d-ac9e-433a-a308-92fb7814d529")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 181.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad2d398-2da1-44ab-9d78-11128b47d8a0")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 171.45 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbedec5-0607-4146-80be-7191f84f31b7")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc1a582-9c8c-4fe5-8baa-acedf6d009e5")
+	)
+	(wire
+		(pts
+			(xy 179.07 101.6) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e446530-d70f-41cc-876b-b0e97e389ab6")
+	)
+	(wire
+		(pts
+			(xy 194.31 69.85) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c06444-7e0e-4fac-b727-0019d79b2b2e")
+	)
+	(wire
+		(pts
+			(xy 168.91 121.92) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e09e43-65d0-45ef-b7bf-4915d8d3ae1f")
+	)
+	(wire
+		(pts
+			(xy 162.56 38.1) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4475b84a-995d-4757-b31b-1c9150fd5fca")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44924ed1-3de0-44ba-b1f2-dc391003f0ab")
+	)
+	(wire
+		(pts
+			(xy 184.15 121.92) (xy 184.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c2bfb9-c085-49cb-9348-fe8d461f6bbd")
+	)
+	(wire
+		(pts
+			(xy 182.88 77.47) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458aeb4f-55d0-415d-bd03-dc64822bbce5")
+	)
+	(wire
+		(pts
+			(xy 168.91 153.67) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47059f5d-854b-4a33-94d8-8458107c18d2")
+	)
+	(wire
+		(pts
+			(xy 102.87 22.86) (xy 144.78 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b7a7d7-ecd0-4217-83a3-12516730996c")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486e4048-1aa1-4734-a4fd-8bb6f07477f4")
+	)
+	(wire
+		(pts
+			(xy 207.01 26.67) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489bb964-5260-42fd-9045-1a9dbc2ebdfd")
+	)
+	(wire
+		(pts
+			(xy 181.61 121.92) (xy 184.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49493847-d611-4cb3-9541-28044f52f621")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495318c9-c6c1-4f7c-a263-f82f49eb5176")
+	)
+	(wire
+		(pts
+			(xy 200.66 143.51) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4970adb8-e3ca-4ff0-907e-906701ee6a97")
+	)
+	(wire
+		(pts
+			(xy 162.56 63.5) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a90a47d-7882-4e0d-bed4-a618bc119df6")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 143.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aacc92a-6d1f-45df-bf83-ae5351540b03")
+	)
+	(wire
+		(pts
+			(xy 146.05 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af12476-4131-48c3-8e4e-32546a4421c3")
+	)
+	(wire
+		(pts
+			(xy 184.15 153.67) (xy 181.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc3781f-966c-49e2-97ec-70df7bb427fb")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4d9601-e965-43fb-94b9-29083500e39e")
+	)
+	(wire
+		(pts
+			(xy 191.77 129.54) (xy 196.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd7d1b0-c964-4eda-ac25-9c17633ff5c1")
+	)
+	(wire
+		(pts
+			(xy 176.53 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d366439-426f-4454-8a9e-1d842fa0f845")
+	)
+	(wire
+		(pts
+			(xy 171.45 161.29) (xy 176.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2e78e5-856b-4f2c-ab5c-2aa2f9247a81")
+	)
+	(wire
+		(pts
+			(xy 176.53 153.67) (xy 179.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fead6cf-4524-49c1-a0f9-e17d37dbcff4")
+	)
+	(wire
+		(pts
+			(xy 172.72 67.31) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50541de5-5790-4975-ac84-b709cdf8e1f0")
+	)
+	(wire
+		(pts
+			(xy 146.05 119.38) (xy 146.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5117d75f-f50d-49dd-9951-b4ac7d81b1bc")
+	)
+	(wire
+		(pts
+			(xy 168.91 111.76) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51346ffe-43c4-4d75-b531-97ee09f01e61")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ff902e-8bf7-4d18-aa17-3d25328b45fe")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553af945-4c75-4cb2-be92-8a2780cd707d")
+	)
+	(wire
+		(pts
+			(xy 173.99 153.67) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558859a6-a92f-4c9f-8bb5-dee8d108267b")
+	)
+	(wire
+		(pts
+			(xy 171.45 140.97) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b5d1a7-4d11-4ed2-8594-7f28df67c52c")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57146782-0017-435b-a8d2-64249b5fca01")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d9da94-6233-4ba0-83a3-190eb07fda34")
+	)
+	(wire
+		(pts
+			(xy 191.77 153.67) (xy 194.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59979a83-3b91-44d8-b08c-b0d330fc373a")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599abd36-ff64-4ccb-9071-d9ec9166944a")
+	)
+	(wire
+		(pts
+			(xy 186.69 151.13) (xy 191.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aea2440-d9e3-446a-9549-50f8ed7e9826")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1cd6cc-adf5-469f-838f-05a16d142b3f")
+	)
+	(wire
+		(pts
+			(xy 196.85 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba9509a-fcd0-4dc5-94f9-a81e80a53849")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c086225-84c8-46b3-81ba-1b05450d4d13")
+	)
+	(wire
+		(pts
+			(xy 102.87 68.58) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c839788-8177-4742-b6dc-e3941be6b655")
+	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d25c8c7-b8cc-4d5f-9655-e3620a3e5741")
+	)
+	(wire
+		(pts
+			(xy 161.29 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee30992-f0f9-4701-9296-ecc99bd25323")
+	)
+	(wire
+		(pts
+			(xy 196.85 143.51) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7755d3-320e-4f1f-a1a6-0f4143f73203")
+	)
+	(wire
+		(pts
+			(xy 142.24 161.29) (xy 153.67 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61776906-c543-4829-943b-c24d334b8e0b")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62479dd2-e942-4db7-b5f2-7867aaaa3aba")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f0f15a-55d8-466e-9a7d-984c0339ef9f")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631a760e-11e6-455c-981d-7f6281efec02")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e5bc1e-0647-458b-bd87-faa23f352b69")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678404f3-d052-4541-9383-5aa1f6c4a8b1")
+	)
+	(wire
+		(pts
+			(xy 194.31 133.35) (xy 194.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d2cfe0-3d3c-42f4-912f-d68ff03b4546")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d06c16f-c4ef-4ddb-93a8-c95dae63db50")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d452396-9646-442d-a62e-bbdfb9ddb951")
+	)
+	(wire
+		(pts
+			(xy 200.66 153.67) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddf24f3-4776-44bb-9758-2beec86c6dcb")
+	)
+	(wire
+		(pts
+			(xy 173.99 143.51) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5a3cee-c86b-40ec-8b77-595e4fbd2dd0")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f15386d-1ae2-4ad2-98e4-c8f8e64e794a")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 146.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70162e98-4ade-4677-bcf5-2f10091b2247")
+	)
+	(wire
+		(pts
+			(xy 185.42 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7143b717-6842-42d4-91b5-4bebaff53732")
+	)
+	(wire
+		(pts
+			(xy 161.29 151.13) (xy 166.37 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7151a900-2ce5-4813-b891-aa122324d5d0")
+	)
+	(wire
+		(pts
+			(xy 144.78 22.86) (xy 144.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c5dde6-5eb1-4336-b95a-d9e47776d0fa")
+	)
+	(wire
+		(pts
+			(xy 194.31 101.6) (xy 194.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7207ee0f-1398-43ec-b7bb-e4a4adea3a7c")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7216bc45-0d60-4c88-8285-98dda390330e")
+	)
+	(wire
+		(pts
+			(xy 200.66 111.76) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a362e8-4900-4312-8833-ca2bd6d826ac")
+	)
+	(wire
+		(pts
+			(xy 171.45 119.38) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73704dc4-3ec9-4706-8a85-60872cdb3a10")
+	)
+	(wire
+		(pts
+			(xy 189.23 91.44) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b0edb2-7b56-4987-96a3-a48adc998476")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754ddae1-90b8-49a5-8812-ec3a84c59513")
+	)
+	(wire
+		(pts
+			(xy 179.07 121.92) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577e446-0fa3-49db-ab0e-4b23e98bed25")
+	)
+	(wire
+		(pts
+			(xy 181.61 143.51) (xy 184.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e5ae11-f187-493f-81ce-0bbfff4322f5")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772397e4-6fda-4645-8a83-5b2c1ff6cc39")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7723ed0a-08d0-469c-8cfe-b1e357305bd0")
+	)
+	(wire
+		(pts
+			(xy 176.53 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a2ab78-2926-4e35-a975-7559c456e494")
+	)
+	(wire
+		(pts
+			(xy 195.58 38.1) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784ca27d-d21a-4868-89b5-79d63b2cad51")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794fc1e0-ca17-4655-b861-8c0691c3bc00")
+	)
+	(wire
+		(pts
+			(xy 176.53 119.38) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6a5b88-96f8-453f-88e8-e502eec54193")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9bbb3e-d0f5-44b3-b87c-c5549164f054")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5b26e4-a95b-44cd-82d5-0d43fc6fc371")
+	)
+	(wire
+		(pts
+			(xy 191.77 121.92) (xy 194.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9bf79c-fd2c-4b34-a224-7ec47755c4ba")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f63a748-d138-4cbb-8f84-e36becb6dd5d")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80136537-cbe8-4a55-83ed-433a97c8906d")
+	)
+	(wire
+		(pts
+			(xy 184.15 133.35) (xy 184.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e44559-e3d0-4cd9-9e17-25fa73f628a5")
+	)
+	(wire
+		(pts
+			(xy 166.37 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c43bd3-bc88-48ae-9073-c3a9afdbde03")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e9bcf3-6b49-4283-89d6-0cd313eb7a38")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.22) (xy 171.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fb6115-5c58-42ea-8ce1-76705ac82229")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f0b252-819f-468b-9178-695f3222faaf")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85113b86-4a7a-40ce-80ff-f6ec9d11de7a")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889c213e-daaf-41f9-b35c-5ebfa44c1d97")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891470d6-98a9-43a6-80a1-2aea789d849b")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a432617-01f6-4637-bc04-624806a09df3")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7d007d-239b-4b1d-a57a-9d1ca7dbdc9a")
+	)
+	(wire
+		(pts
+			(xy 166.37 121.92) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae4b747-3f6f-4cd6-b4cd-c82bc4b3f08b")
+	)
+	(wire
+		(pts
+			(xy 168.91 133.35) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0488b1-a443-43c2-989e-af034c08172f")
+	)
+	(wire
+		(pts
+			(xy 179.07 133.35) (xy 179.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de7f4a6-8736-4d6a-8097-2a6e795f6463")
+	)
+	(wire
+		(pts
+			(xy 191.77 111.76) (xy 194.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e97bd99-6544-4b77-8afc-14aea28d50fd")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dc97d6-65f9-4979-a721-fbb8e3d4821e")
+	)
+	(wire
+		(pts
+			(xy 171.45 129.54) (xy 176.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9210a993-a871-4bb5-a04e-b911e66d22d8")
+	)
+	(wire
+		(pts
+			(xy 144.78 26.67) (xy 207.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cd4e97-4286-4267-b936-1c533ea1a522")
+	)
+	(wire
+		(pts
+			(xy 186.69 143.51) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a01477-b35b-4bf7-9daf-b76873a53034")
+	)
+	(wire
+		(pts
+			(xy 186.69 121.92) (xy 189.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fb39cc-78f3-4fab-83fa-cfe8f2e86e3d")
+	)
+	(wire
+		(pts
+			(xy 194.31 143.51) (xy 194.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981c94c1-01c4-4e1c-bd70-7f118379b841")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9988133a-b6e9-437d-a960-6448d3e3d3ad")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2c82c3-e982-4c92-a156-1bae9c60ff39")
+	)
+	(wire
+		(pts
+			(xy 163.83 153.67) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a695864-02e3-4ebb-b16b-7b14e670953b")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a909c8a-de5c-493d-ab7f-16540ba26855")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 162.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bedea1e-a6d5-4dd5-8f40-40af26c2d0f5")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4a7e07-8a3f-4b45-984e-24e9a03042dd")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 186.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0bb350-f046-4a87-bf34-2f3205e9cb77")
+	)
+	(wire
+		(pts
+			(xy 166.37 151.13) (xy 171.45 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9ac7f7-5c04-4d8f-b0e0-57532263b382")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dca76c3-b8d1-4894-9e1d-0da607d80f30")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc2ef0d-c0ca-4cd6-933b-d9546fef3658")
+	)
+	(wire
+		(pts
+			(xy 176.53 121.92) (xy 179.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffac1c4-dea7-4c61-982b-a61429c3a613")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d7cb04-3c67-4c0a-b20f-caa35d87f94a")
+	)
+	(wire
+		(pts
+			(xy 171.45 153.67) (xy 173.99 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd8795-af1f-47a5-8d3f-80fe118e76a9")
+	)
+	(wire
+		(pts
+			(xy 196.85 153.67) (xy 200.66 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a549b07a-cbdc-464e-bfd1-937e36f32677")
+	)
+	(wire
+		(pts
+			(xy 176.53 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b24e93-5c4e-4962-870c-663b93d2d112")
+	)
+	(wire
+		(pts
+			(xy 144.78 151.13) (xy 153.67 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fba858-ee02-41ca-92ec-0e88a8c61bc8")
+	)
+	(wire
+		(pts
+			(xy 189.23 143.51) (xy 189.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e8f1a7-2475-422b-afea-1ba712c2bdfe")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a828365d-58b7-45f1-99bf-f685064b7569")
+	)
+	(wire
+		(pts
+			(xy 191.77 87.63) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b9a7ea-d1f1-4d84-979d-f7eafb5cc9fd")
+	)
+	(wire
+		(pts
+			(xy 176.53 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab494ff5-4bc6-4755-93bc-47d78c85fa54")
+	)
+	(wire
+		(pts
+			(xy 191.77 143.51) (xy 194.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad827c1b-fbbd-4bdf-b9fa-23fb7d6a6618")
+	)
+	(wire
+		(pts
+			(xy 191.77 133.35) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc61d44-9f76-40c3-b29e-b8ce87e55d89")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9155ec-112d-4963-aeae-21c638a89b9e")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcbc972-210a-48e3-84c2-1e547aeeef31")
+	)
+	(wire
+		(pts
+			(xy 191.77 161.29) (xy 196.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a9b750-a178-4e96-af82-c5abace9211c")
+	)
+	(wire
+		(pts
+			(xy 186.69 87.63) (xy 191.77 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35cc712-67a8-4445-a7fd-aed4e7906ea3")
+	)
+	(wire
+		(pts
+			(xy 173.99 101.6) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40aa647-9fba-470c-9c48-7a7f3a16c2d6")
+	)
+	(wire
+		(pts
+			(xy 171.45 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b908977a-20c1-45de-9189-41842b2866b2")
+	)
+	(wire
+		(pts
+			(xy 179.07 143.51) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b908c538-c81e-40d1-8291-56dd259a828e")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf2a2c8-0285-4dd9-b0e8-9399cc3db0d6")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 171.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc46c68a-18bb-42eb-b879-5550561e7e7e")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 144.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd061a5c-f781-4571-8763-bef4f8912f7a")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb6b2c0-13d2-40b1-8908-ab5ff1b14d4c")
+	)
+	(wire
+		(pts
+			(xy 143.51 109.22) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be303f1a-150d-448e-8419-3889d5c30cd7")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 173.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1ba561-fc79-439b-ae71-c2612d005d29")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 191.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a00c4f-8020-4df7-a7b2-83d2d5b161ef")
+	)
+	(wire
+		(pts
+			(xy 190.5 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47e66ba-a998-4c0e-af35-21bade122cf8")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f0f341-01c6-4ecd-8ac4-f28105625d26")
+	)
+	(wire
+		(pts
+			(xy 186.69 119.38) (xy 191.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f06eb7-13dc-428a-b478-16ebabf1ca13")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642210e-25f3-4a48-806e-bd2b599cd2de")
+	)
+	(wire
+		(pts
+			(xy 180.34 67.31) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7daa302-4eaf-42f7-846b-768c1b4c8ccc")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85d2123-008d-45af-9be6-a2c4b23441f3")
+	)
+	(wire
+		(pts
+			(xy 186.69 80.01) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1fb5a3-bace-4915-b4e2-188e0d47535a")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1997d4-d97e-44cc-96aa-7a5a1a908ae6")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7fee60-bd07-469d-a4a7-c4f56ec3c5eb")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2997137-29ff-4c00-9115-da4fc5b82254")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d391b7fc-2b2e-4758-a88f-0b0246df3a4d")
+	)
+	(wire
+		(pts
+			(xy 179.07 153.67) (xy 179.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d736b61a-8193-4c92-9daf-b99517d6d286")
+	)
+	(wire
+		(pts
+			(xy 196.85 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d939132e-ef10-4beb-a797-8ccf11203e86")
+	)
+	(wire
+		(pts
+			(xy 186.69 133.35) (xy 189.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d993e3ca-355f-47f0-9cdb-31385aa7b2f1")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dc6577-d46c-4ead-9c1d-a11f4d963424")
+	)
+	(wire
+		(pts
+			(xy 102.87 134.62) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da00cf05-04fc-4435-9fc6-e952609b8392")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 171.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db539e05-e12c-4543-82cc-433a6e64f1ef")
+	)
+	(wire
+		(pts
+			(xy 171.45 151.13) (xy 176.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1b356c-4716-49d8-b86e-b23fb2bced25")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd06ee8f-365d-437c-ae26-39b5e9542f44")
+	)
+	(wire
+		(pts
+			(xy 161.29 140.97) (xy 166.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbd8867-e06e-4a2e-baa9-e3adcc0544bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2606b4-efa3-46d5-b383-735fbbe69c88")
+	)
+	(wire
+		(pts
+			(xy 176.53 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa5c386-5673-415f-a8b4-53831125b510")
+	)
+	(wire
+		(pts
+			(xy 161.29 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28a81d2-6cef-4c2d-aeb1-b97f0f07b650")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29c515e-a861-4463-b014-370760b0d97c")
+	)
+	(wire
+		(pts
+			(xy 187.96 67.31) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31f652d-6c99-4d23-b6b8-e4ab25c86a4a")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36199fb-91cd-44cb-bf44-69f6ca69d107")
+	)
+	(wire
+		(pts
+			(xy 151.13 129.54) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f5d7aa-ae0b-4909-b1c2-74ee4cebd33b")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64bedf3-7d5a-4406-ad59-7c7db3eba750")
+	)
+	(wire
+		(pts
+			(xy 176.53 143.51) (xy 179.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66b9794-7558-4534-b50c-eda67662cd4e")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a9808e-ed33-4662-a4ac-348b65c21f8c")
+	)
+	(wire
+		(pts
+			(xy 191.77 119.38) (xy 196.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f39673-fe0a-4a4c-ae54-d1e719cb3617")
+	)
+	(wire
+		(pts
+			(xy 163.83 133.35) (xy 163.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fa24cf-e15d-4ff8-8e24-ee25fd247505")
+	)
+	(wire
+		(pts
+			(xy 171.45 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec40e229-598f-4e9c-b436-8e51e94021dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccbbed4-56d5-47ec-b0de-6699c5b83c8e")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed18519c-c564-43f5-8514-b512e1d005e8")
+	)
+	(wire
+		(pts
+			(xy 176.53 161.29) (xy 181.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed931e72-5cb9-43db-bc62-6f9522d2ccd0")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee01c396-b693-4e96-adb5-8a1013d4a155")
+	)
+	(wire
+		(pts
+			(xy 191.77 140.97) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb8a5dc-9af1-402e-b4ea-26f24453165e")
+	)
+	(wire
+		(pts
+			(xy 138.43 124.46) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08330fe-4f7d-4e1a-87c9-73020c5f556b")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f140116d-6eae-45cb-9c3d-909c6a00f193")
+	)
+	(wire
+		(pts
+			(xy 180.34 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bea790-3921-40c6-aff2-38c7fc35a2f6")
+	)
+	(wire
+		(pts
+			(xy 166.37 133.35) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5092656-7db8-4cce-8672-bfb22c7db975")
+	)
+	(wire
+		(pts
+			(xy 161.29 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ea125d-8679-4eb6-a036-f3d657a3a358")
+	)
+	(wire
+		(pts
+			(xy 168.91 101.6) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f1561c-66cb-42fe-bb12-2c02e334f5a5")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c8cfe8-6a74-4cea-ab9c-6296acabddf7")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ec6ce0-1abb-4e6f-a76a-a5a079632e68")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7302aeb-bedb-4689-b90e-19311ebd4d50")
+	)
+	(wire
+		(pts
+			(xy 194.31 121.92) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4b4a7c-f8d7-4816-9338-6f46409d941d")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc589120-cc2a-43f2-9aff-340dcd2ba5fa")
+	)
+	(wire
+		(pts
+			(xy 181.61 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffad48f5-68d5-47d3-a6e7-82b93d055d1d")
+	)
+	(wire
+		(pts
+			(xy 184.15 111.76) (xy 184.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeca25d-7dc5-48b7-956c-50c6d9d64f9e")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007c5bef-bbb1-4940-b55b-be596c72fc86")
+		(property "Reference" "D8"
+			(at 199.39 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f792f10-4575-40a0-b26e-498e933c3bf5")
+		)
+		(pin "2"
+			(uuid "00d67bae-3eab-483b-b6d0-d8730fea3932")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07454829-98e0-4c3c-bcd8-81db54d090d2")
+		(property "Reference" "D41"
+			(at 163.83 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40d9181-bc2e-46f0-b58b-d2305059f23a")
+		)
+		(pin "2"
+			(uuid "73d23ed9-5d19-4e5f-949f-6397e1a8e20e")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c451bc3-286b-4603-8f2f-ec3c9f614c96")
+		(property "Reference" "D30"
+			(at 189.23 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b352e6a5-ff55-4d8c-aa26-a13af8c9528b")
+		)
+		(pin "2"
+			(uuid "18ad21f6-b329-4bac-a7a0-08fb8ce54450")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca9a846-e78a-43cf-b574-ef6f154f517e")
+		(property "Reference" "D27"
+			(at 173.99 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11a7356d-0aaa-4670-9bbf-7179f86a11d0")
+		)
+		(pin "2"
+			(uuid "f72938d3-02c3-41a1-a364-1734689291b5")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1baf22-60db-474d-b869-bf91ed3981e8")
+		(property "Reference" "D13"
+			(at 184.15 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641021e5-032e-4896-a041-79dfa81d18aa")
+		)
+		(pin "2"
+			(uuid "f75eb2b7-8d97-4d01-8f39-32511c9259e3")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac0762f-c0c7-4c8c-8b91-80bbfd060198")
+		(property "Reference" "D59"
+			(at 173.99 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e269c3fa-103d-4639-962a-e0562a47f548")
+		)
+		(pin "2"
+			(uuid "0fffa769-ba21-4ea5-b23e-4aed3bf88b2a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e686b81-6ca9-475f-8f6e-71b39295ea7d")
+		(property "Reference" "#PWR02"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd322e4-2029-433c-89cb-a43fdd5804de")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a912bc-d113-437a-b8d3-9b577a7e660f")
+		(property "Reference" "D5"
+			(at 184.15 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a300a6da-b8e7-4b4b-a345-7c2af15ae96e")
+		)
+		(pin "2"
+			(uuid "083bf6ce-0a14-4e43-9135-e6ff3f5552f4")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220fb44b-cca6-4ee3-9bef-68fc46a2cd6d")
+		(property "Reference" "#PWR03"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4de807f8-ea92-497d-bf94-d3b04f490357")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "229adb3a-6796-4f22-9d7d-3c79ad20bb4e")
+		(property "Reference" "D24"
+			(at 199.39 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d3fcf5-ff03-4f6f-99c8-98910ee0490b")
+		)
+		(pin "2"
+			(uuid "a8a3f16a-3b03-4736-a7d4-734aaac78a0a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MY_SYMBOL_LIBRARY:PCB_USB_CONN")
+		(at 127 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30706915-41d5-45dd-a15d-40f935b9c93c")
+		(property "Reference" "U4"
+			(at 120.015 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.015 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MY_FOOTPRINT_LIBRARY:PSB_USB_CONN"
+			(at 125.984 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.984 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.984 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3e17a315-c9eb-4837-8362-1c1d21fd2d60")
+		)
+		(pin "3"
+			(uuid "bbc9a2b5-96e2-4305-b719-0f6d7e84b0c0")
+		)
+		(pin "1"
+			(uuid "d9f51496-1c30-469d-ab44-a3289505cd3e")
+		)
+		(pin "2"
+			(uuid "216ed036-86fc-47bb-817f-b2548b85e07c")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32297f1c-d8b3-4062-a42a-55d761ff38e5")
+		(property "Reference" "D63"
+			(at 194.31 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cf31ea4-a9d2-4be9-8d79-a141ff89328c")
+		)
+		(pin "2"
+			(uuid "aed7ef51-fe95-43fb-be3e-a61176db5f35")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "326f40e1-2e58-45cd-b43b-bdb652a00e7c")
+		(property "Reference" "D57"
+			(at 163.83 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe86b6a5-b339-41a7-94d8-af654d5db59a")
+		)
+		(pin "2"
+			(uuid "d97b8548-0e3e-4b67-acba-4b1dbaccce65")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 180.34 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359347ab-7ac2-446a-8127-e215d2ab12f7")
+		(property "Reference" "U3"
+			(at 199.39 50.8314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 199.39 53.3714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "d166017c-d6be-4924-beec-c4e8a9363ed6")
+		)
+		(pin "12"
+			(uuid "597fca34-63f1-43b7-ac9a-283297f54d60")
+		)
+		(pin "9"
+			(uuid "1023a7ee-0e52-4788-b52b-8c7042e8c9c8")
+		)
+		(pin "4"
+			(uuid "4e03b32b-3a2f-4ba5-a101-329732729010")
+		)
+		(pin "7"
+			(uuid "59d5c603-22c1-47e8-821d-3aceb28ab6fb")
+		)
+		(pin "15"
+			(uuid "2f8381ec-f810-48be-956a-ab8ca0fa9ade")
+		)
+		(pin "13"
+			(uuid "5cbd68b9-dc44-4a1a-957f-7c38f3906129")
+		)
+		(pin "11"
+			(uuid "b52f995a-8ead-4891-bcb5-c4de545652d8")
+		)
+		(pin "5"
+			(uuid "f63242d2-0058-4bba-bfda-b902d6142061")
+		)
+		(pin "10"
+			(uuid "b7bf1066-bee5-4c3f-bf5f-49c0474df3e7")
+		)
+		(pin "2"
+			(uuid "ed0d38d3-ca4d-4e47-bc3f-19ed7da08281")
+		)
+		(pin "8"
+			(uuid "b7e7454f-cf77-4bc8-9eea-5b0fbe3764dc")
+		)
+		(pin "16"
+			(uuid "ad19c81a-a785-469c-80d6-aeb1f728e33c")
+		)
+		(pin "1"
+			(uuid "c54cbe18-f8af-4761-be25-c727bbb801ce")
+		)
+		(pin "3"
+			(uuid "ab74db60-824e-4434-9a07-7153319ead42")
+		)
+		(pin "6"
+			(uuid "8266b9e6-a492-40ec-91eb-2db68125579c")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a65eb10-3a67-4b74-9228-7d421c1b5c27")
+		(property "Reference" "D16"
+			(at 199.39 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af52b451-9b7b-4f71-91a3-1a0791c9876f")
+		)
+		(pin "2"
+			(uuid "7a989a39-cb71-4c0c-90e0-3a27dc90b90e")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac13bfe-ee3f-435e-a8f6-b1182fe232a9")
+		(property "Reference" "D20"
+			(at 179.07 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d78e5c-b4c1-4d9a-92fc-30a578ea1ddc")
+		)
+		(pin "2"
+			(uuid "48ec7bad-8467-4766-94cf-eda6c2927f7b")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b03ccb9-fd77-40f2-a6d4-a782f92cad11")
+		(property "Reference" "D28"
+			(at 179.07 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3565afc4-aef0-48ba-b6b3-5ae203a48569")
+		)
+		(pin "2"
+			(uuid "f8651ddb-3402-4223-9d03-357c68f2f711")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c7e4a8e-6e11-4b13-b77c-f653f3710166")
+		(property "Reference" "R1"
+			(at 157.48 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af640f0f-1f09-4bf6-8d9a-2e65c6745981")
+		)
+		(pin "2"
+			(uuid "8a7965bb-3791-44e8-b50b-07c5cd7253f2")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e36430c-6f4f-4370-a4d6-b4360eec3c11")
+		(property "Reference" "D52"
+			(at 179.07 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97fa7faa-0648-4e6a-adc6-a04280a32f9f")
+		)
+		(pin "2"
+			(uuid "47bdcd8c-f58e-47b0-8123-c54142b43bd9")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b4fa0c-a976-445f-bf2a-01edcf774036")
+		(property "Reference" "R8"
+			(at 157.48 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3350429-691c-480a-bded-e1a367f19a6b")
+		)
+		(pin "2"
+			(uuid "effbea9c-e2a8-441d-94e7-5f9993359e39")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bd4e21-53bc-4d00-a5ae-dab47ed16656")
+		(property "Reference" "R5"
+			(at 157.48 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0bb813a-e507-4d27-a12e-462f3e9e497f")
+		)
+		(pin "2"
+			(uuid "3a05b2fb-f369-4a8c-b799-6e262356afd8")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "497b8925-49dd-4a12-8355-7d281d7d40f5")
+		(property "Reference" "D44"
+			(at 179.07 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67194367-a196-4a7f-93a5-0c41e8d863a3")
+		)
+		(pin "2"
+			(uuid "3c4dfafc-78d5-40d5-b1f0-bf908961de6f")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee8a46a-61db-42a9-a7e5-22f2aa5d04f9")
+		(property "Reference" "D21"
+			(at 184.15 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffa5983d-be73-4893-a693-bcfea1ba2a39")
+		)
+		(pin "2"
+			(uuid "c95acfd4-5cd2-4a1e-8d25-e1ac4139550a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50749af0-b49b-436a-8451-e60f5ba51377")
+		(property "Reference" "D15"
+			(at 194.31 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14edde5d-49f4-433c-a231-f1ee891fe048")
+		)
+		(pin "2"
+			(uuid "cdbd4683-33de-4e27-ab4c-0037efc79637")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50b820a6-8aca-4b1a-8baf-47b18706a05e")
+		(property "Reference" "D47"
+			(at 194.31 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0566bb6-f0c1-419c-bac0-667bc2020d40")
+		)
+		(pin "2"
+			(uuid "2e788672-5a4e-42f0-8ac5-094f77f23c42")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c8adca-038f-492b-9ad8-169fe464b71b")
+		(property "Reference" "D26"
+			(at 168.91 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ec85c5-49d0-4eeb-b2a1-6bf86ad65279")
+		)
+		(pin "2"
+			(uuid "d0fb5a53-2ce4-4ece-bf5b-99b87e2d85e9")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55355bcc-b09b-4d93-a978-880ce6d5ff35")
+		(property "Reference" "R6"
+			(at 157.48 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d180bfaf-2a8c-42f0-8ce2-72a0541daa87")
+		)
+		(pin "2"
+			(uuid "c27895e7-e365-4e1f-a20f-25bc7dcaabe7")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f0e32c-f6a4-4534-9355-52b38fe5b9a3")
+		(property "Reference" "R7"
+			(at 157.48 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7016ea2-17be-4387-9c44-f0762d9300e7")
+		)
+		(pin "2"
+			(uuid "c89b6d43-f3f0-4a05-aa9c-35e9e9e5eb1c")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b990d0c-4dab-4cae-a012-04f14cb6c570")
+		(property "Reference" "#PWR06"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf23716c-cc27-4d73-b982-66454f6b30a7")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bdbf294-bd56-443d-a350-58f305b20317")
+		(property "Reference" "#PWR05"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec9f20a8-6c06-48c0-9f2d-5e19a94b9b57")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c2d4e85-f9d7-4de1-9926-e661e51436da")
+		(property "Reference" "D7"
+			(at 194.31 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0db01ee6-1542-4b69-8db4-071f5f1aafd4")
+		)
+		(pin "2"
+			(uuid "4aadd566-6c2c-4932-a6d1-aa30e991e1d3")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Microchip_ATtiny:ATtiny84-20M")
+		(at 102.87 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eccce1c-e8a2-40fb-b478-a50d0644a3ae")
+		(property "Reference" "U1"
+			(at 88.9 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ATtiny84-20M"
+			(at 88.9 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, QFN-20"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "80c92ca7-5249-479b-a065-c3b8264d7d76")
+		)
+		(pin "10"
+			(uuid "38932c82-6d35-4d00-b175-f915bd697b03")
+		)
+		(pin "4"
+			(uuid "ac09a103-86e9-4bdd-a210-46f52f9f32a3")
+		)
+		(pin "12"
+			(uuid "8a189e53-3a42-4ad1-a2ef-96651da4de9d")
+		)
+		(pin "3"
+			(uuid "394e9394-a6b2-4c1f-8167-48a52000634e")
+		)
+		(pin "1"
+			(uuid "89e76175-bd23-4b0a-9c0e-5e6f639efd29")
+		)
+		(pin "13"
+			(uuid "278f42f2-002d-415b-8b7a-857b6e8cade2")
+		)
+		(pin "18"
+			(uuid "da8dcebd-61db-4dfe-a24a-9d0ec3160138")
+		)
+		(pin "19"
+			(uuid "caced8d1-f996-4c65-9ef3-6ba8728dd6f2")
+		)
+		(pin "2"
+			(uuid "bea0593e-a230-43e5-abb2-3f63cd6828a6")
+		)
+		(pin "5"
+			(uuid "f49ae98b-355b-4d14-a1cb-171d86c6ab78")
+		)
+		(pin "21"
+			(uuid "23e0b780-31c6-422d-85e8-a8ecc0efcf33")
+		)
+		(pin "9"
+			(uuid "2a0f3bd2-ea41-4875-88b7-d848f1449db3")
+		)
+		(pin "15"
+			(uuid "f5752ddd-1b35-4046-8672-6ae0dd9eea25")
+		)
+		(pin "8"
+			(uuid "0ee3a134-fd1d-4c50-8205-522efd4646af")
+		)
+		(pin "17"
+			(uuid "0172c41d-9b41-46ae-b6a1-fd2b3d32f242")
+		)
+		(pin "16"
+			(uuid "3897231b-9d54-4c47-9fda-e49faf1f0079")
+		)
+		(pin "11"
+			(uuid "37b422bf-d07b-4542-875d-9d1c426e897d")
+		)
+		(pin "7"
+			(uuid "c4ad7632-d6ec-4a09-9ecc-7f374b52e50d")
+		)
+		(pin "6"
+			(uuid "1dfaeab8-593d-4a75-aa99-7cd827e852e4")
+		)
+		(pin "20"
+			(uuid "444be559-e960-455e-9063-aba2487ccfc9")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a20324-5de4-47cf-beb9-9edb73c1a4bc")
+		(property "Reference" "D51"
+			(at 173.99 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e118f4b1-a44b-4632-8072-21247e03ed70")
+		)
+		(pin "2"
+			(uuid "583249e8-d1e3-43b3-a757-f270c745b8cb")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61415b35-eebe-4ea2-a022-30b648ec7d50")
+		(property "Reference" "D58"
+			(at 168.91 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "025e75d5-1897-425c-baf9-e2e2bc9858fb")
+		)
+		(pin "2"
+			(uuid "5fd0e7db-b2b2-4e3c-9cdf-cadaaccb4119")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658415fb-16a2-4d28-a201-93f3100e99a4")
+		(property "Reference" "R3"
+			(at 157.48 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bdf708-8ccc-4621-90b9-f6309ef41f42")
+		)
+		(pin "2"
+			(uuid "bfdc5c9f-aa00-4fe4-ad55-6bdfcf52f1fe")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661617bd-7f9e-494f-a485-14a98c3a7cd6")
+		(property "Reference" "D1"
+			(at 163.83 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c659e6-7ae4-493b-a435-eb2b285fc55d")
+		)
+		(pin "2"
+			(uuid "98f0a253-2eeb-4a5d-8a21-6de954ca9183")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689b3ea2-5cbc-4477-a512-edc0c292eff6")
+		(property "Reference" "D40"
+			(at 199.39 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a1094f7-1c5a-41a8-a583-f3ddbceb52b6")
+		)
+		(pin "2"
+			(uuid "c576e293-5b10-4834-b384-ce413797b297")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a1b6368-1662-4bdb-855a-618d130d67d3")
+		(property "Reference" "D4"
+			(at 179.07 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011ddfac-e318-41ea-bb51-790e578fd633")
+		)
+		(pin "2"
+			(uuid "ce8f5077-8180-4ce8-9410-c9a0dc039228")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aaf83d3-8e10-4ac3-9631-fbe2228e04e2")
+		(property "Reference" "D62"
+			(at 189.23 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b17e918-8e97-4de4-a0c0-087c6c3259c6")
+		)
+		(pin "2"
+			(uuid "7ed514e7-cd2e-477e-a9b2-c80da5f2505f")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ba36e68-8307-4d25-94cd-c5ca5ba90dca")
+		(property "Reference" "D54"
+			(at 189.23 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516b9384-f1fe-4292-bc1b-84722e973b62")
+		)
+		(pin "2"
+			(uuid "6ec6d2a1-fe19-46e3-bde4-56da99872836")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ddc5226-dd3b-450a-b2a9-12aae6c4eb7a")
+		(property "Reference" "#PWR04"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 199.39 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01cdca8a-1b1a-43c5-884f-cc6b3113f195")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed7e120-99e4-4c65-925c-3af62f770889")
+		(property "Reference" "R2"
+			(at 157.48 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806e3bcc-a7e3-4ce2-81a7-e77110aea673")
+		)
+		(pin "2"
+			(uuid "a4ecfc93-5587-4a1a-b353-4413c43c1d18")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7065885d-526f-4317-9bbb-b97bfff6160f")
+		(property "Reference" "D14"
+			(at 189.23 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80935d46-b597-448c-96ee-d1ecf274e5fd")
+		)
+		(pin "2"
+			(uuid "eedd22ca-63ac-493e-b9ed-0e93ac490d81")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71b1a544-688a-4e47-b177-59c9d9e55876")
+		(property "Reference" "D29"
+			(at 184.15 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468a3146-f6d1-4ab0-b0f7-3ccf34a58c87")
+		)
+		(pin "2"
+			(uuid "215c70e8-3c99-4cf8-bb13-a874888b7d9a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b2db29-8535-4774-bef6-78c36ec2a2d4")
+		(property "Reference" "D61"
+			(at 184.15 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1128e79-02c4-4031-9897-9e50f81cf9a4")
+		)
+		(pin "2"
+			(uuid "b588f89d-a017-4260-b045-42a4b3718923")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bf6de6-9ff3-44de-8f7f-f86f6b4ac393")
+		(property "Reference" "D48"
+			(at 199.39 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e3fe2d3-b9f7-4512-9c88-8aca31a0f6a4")
+		)
+		(pin "2"
+			(uuid "733ac9c8-c6fd-4a63-ba91-84fa9aad57f7")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d28cf4-157a-4887-b1d9-d82b883d3e35")
+		(property "Reference" "D37"
+			(at 184.15 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85f721e2-d856-439f-9b51-ebce0e2f1564")
+		)
+		(pin "2"
+			(uuid "d94d6894-6ff4-41e9-87e4-b43e6f49c18f")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84dc49f7-083e-4da8-9e4f-0442b4c8bf33")
+		(property "Reference" "C1"
+			(at 110.49 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 110.49 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 107.6452 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20a15b0f-4dff-4407-ad8c-652547c88c2c")
+		)
+		(pin "1"
+			(uuid "26613298-002b-4a18-a023-ce44fb040af8")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d12d6f-6b0b-443b-bfbe-1d4beaaa149f")
+		(property "Reference" "D49"
+			(at 163.83 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4a20d60-25e9-47f6-b4f8-215381ab373f")
+		)
+		(pin "2"
+			(uuid "314014ba-33da-4b44-bbcf-96d7f2f2503d")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb1e554-cdba-441f-b29e-aea1e3966276")
+		(property "Reference" "D56"
+			(at 199.39 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a9222c6-4156-4a2d-b3c6-3eee5ebcc50c")
+		)
+		(pin "2"
+			(uuid "f2aa2c86-9dea-49b2-9945-40294b896981")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951a54c8-dc73-44a8-bdc5-6d2a2176a6ae")
+		(property "Reference" "D31"
+			(at 194.31 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61875ae3-3d2b-4103-b815-cef0f00f6fb5")
+		)
+		(pin "2"
+			(uuid "d04825e6-71c2-4557-93c6-f44a9028a8b1")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96460a0d-af4c-4f68-a072-bc0a9e5f4041")
+		(property "Reference" "D10"
+			(at 168.91 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0deb617-bb66-4145-8acf-dd0b497904ab")
+		)
+		(pin "2"
+			(uuid "bcb1b6f1-272e-49f2-bcc3-8b280f91ca0a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98a3fc21-a51c-48b8-ab77-2ef4c87d5890")
+		(property "Reference" "D34"
+			(at 168.91 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bb55c5b-5b11-4b75-8b98-d09d2ef44cb8")
+		)
+		(pin "2"
+			(uuid "be582829-ba8e-49b7-9be7-57805548e206")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3d484f-2fad-4b47-adbc-7e9ba3b767e9")
+		(property "Reference" "D42"
+			(at 168.91 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674b5246-3588-4c6d-8d76-a388ef5e6541")
+		)
+		(pin "2"
+			(uuid "156a8720-b1a8-48b7-9937-2b2055bdd7f8")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fb9326e-fe59-4fb2-a159-719b0704f6e4")
+		(property "Reference" "D64"
+			(at 199.39 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50185505-bf7a-4e7f-8331-9616eadbfbff")
+		)
+		(pin "2"
+			(uuid "7dafdca4-c5c6-4d5e-a63f-38a70f5d9ac4")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.85 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ca984d-fe62-438b-a5b1-d34323016ca4")
+		(property "Reference" "D32"
+			(at 199.39 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.39 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6563931-4f2b-4f8d-a320-e443a421230a")
+		)
+		(pin "2"
+			(uuid "18a8bc3e-aac2-48b3-8164-f58404a51b39")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a54764d4-0f5d-4d6b-9264-a69ce4c802e8")
+		(property "Reference" "D45"
+			(at 184.15 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766aabca-c03a-4834-bca7-6419f19e4a11")
+		)
+		(pin "2"
+			(uuid "507886e5-7cb2-4c06-b275-25f5745be948")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7d06153-df64-4ff2-b938-cdf63555d1d2")
+		(property "Reference" "D23"
+			(at 194.31 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeeb01e1-5ace-4f1d-bf0f-6ad25951a9d8")
+		)
+		(pin "2"
+			(uuid "6885dd92-762a-44ff-9158-54eed553420c")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8034142-4c8a-42a1-9a1e-51637d4bd95f")
+		(property "Reference" "D11"
+			(at 173.99 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf9c852-a36f-4dbc-a1aa-bfc530a7862b")
+		)
+		(pin "2"
+			(uuid "dbc75744-cfa7-4bf0-8ef4-2ad9039fe3ec")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a989c5-4c61-4755-891d-b50f0fe1a61b")
+		(property "Reference" "D9"
+			(at 163.83 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c3e7fc6-ea44-4ffa-a505-a2dadb3d935e")
+		)
+		(pin "2"
+			(uuid "92586a77-3980-4575-9c4b-560db0fa037c")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f93d7b-9c64-4486-b4b4-65e8b3bd604d")
+		(property "Reference" "D46"
+			(at 189.23 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0109f0c0-4671-4c35-85c0-52abaec90a68")
+		)
+		(pin "2"
+			(uuid "022a2353-e4af-4a83-9be0-1e0cfd73cecc")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23686a2-80b4-4ec7-9a41-f1f95adeffb2")
+		(property "Reference" "#PWR01"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "395e3649-5838-40cf-9fc6-429967bb1f48")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b27e1556-6ab6-4694-93b1-778ef1c27203")
+		(property "Reference" "D55"
+			(at 194.31 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f7bb90f-ae6e-40df-ab54-6ab804fdb1a4")
+		)
+		(pin "2"
+			(uuid "b5589f6b-75ab-42db-9c29-a22c2fbcbfab")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f505a0-b4dc-49e6-9324-dac509e57523")
+		(property "Reference" "C2"
+			(at 179.07 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 179.07 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 182.88 37.1348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d8d8edb-a31e-4a83-a3ef-6936f6f9cbc5")
+		)
+		(pin "2"
+			(uuid "0d0d4c98-d68b-4363-87d0-4aa85b342b47")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7dd9938-83ad-463d-b875-5c90d400be9c")
+		(property "Reference" "D12"
+			(at 179.07 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "841a1e96-958d-4825-ba97-ce9c0f6b99e1")
+		)
+		(pin "2"
+			(uuid "a0a4d413-5b24-4571-ac68-d4ee053b708a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b79cd7-2797-4ed3-bb4c-8a7fbb109817")
+		(property "Reference" "D36"
+			(at 179.07 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab3ade2d-20ec-4e2e-8160-efbab60486a3")
+		)
+		(pin "2"
+			(uuid "fcbc9eb2-8b84-48d6-a104-a0e387ee52eb")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6cd8506-a1f6-4b8f-a086-50ea0ff6c4cc")
+		(property "Reference" "D60"
+			(at 179.07 154.6224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 157.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff9d756-5ff0-4189-9845-bddc9de29654")
+		)
+		(pin "2"
+			(uuid "611ee5f5-7ad1-48d3-96c9-8c6653d03bb6")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde12d0c-d3d0-4662-bae4-d64d1fadc9d0")
+		(property "Reference" "D35"
+			(at 173.99 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc955df-35e1-4a36-9eb6-6ee9730ccc44")
+		)
+		(pin "2"
+			(uuid "647127b5-0918-4c1d-84f7-4e8e0eb2f61e")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d13f9277-befe-4607-8683-d39c2f576a0e")
+		(property "Reference" "D43"
+			(at 173.99 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef2bce83-d954-4c9a-8e90-fccd53cffc96")
+		)
+		(pin "2"
+			(uuid "dad8aa5c-1614-4167-ba2b-f8c004eb81bb")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5d27214-7473-48b9-b6f5-20ebfb91beea")
+		(property "Reference" "D22"
+			(at 189.23 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f36df7c1-bc8b-426e-8a20-c05788f0016c")
+		)
+		(pin "2"
+			(uuid "ad02392b-a6c8-4e2d-ac04-9acdf67c0a22")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6c9642e-b8c1-4d21-b95d-6eefaffb0a2d")
+		(property "Reference" "D2"
+			(at 168.91 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4e6bc9-1bee-4e18-a406-d1d728ba8404")
+		)
+		(pin "2"
+			(uuid "6268489e-80be-4ff8-bc4f-05face6c9f5a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad0fc74-4ba4-4ef0-b725-ca0f3666e892")
+		(property "Reference" "D25"
+			(at 163.83 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f8c85a-8d57-46be-86f8-99096db7a9db")
+		)
+		(pin "2"
+			(uuid "71962cd7-49ea-4bfd-9f0c-ff7e529fe94f")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea31497-c571-4f6e-9543-5715e4166369")
+		(property "Reference" "D53"
+			(at 184.15 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.15 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9bd0e93-3457-4de4-b220-d3325b8ee5a1")
+		)
+		(pin "2"
+			(uuid "1d7121e2-d6c8-4785-9db2-b48b8f812988")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "debb2706-c3ed-4651-91c7-8534637b7bca")
+		(property "Reference" "D19"
+			(at 173.99 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e251934-e2f6-41d5-85c9-d882629a0258")
+		)
+		(pin "2"
+			(uuid "754584e5-24b0-42de-86f3-cd26f7c96384")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02b5401-981f-4c35-a87e-0d32647c99b3")
+		(property "Reference" "D38"
+			(at 189.23 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3c60c94-1063-425b-ad93-51d311be955b")
+		)
+		(pin "2"
+			(uuid "e732fc60-54b3-40c7-ab54-5a8ce067a031")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1861e12-4965-4360-ad6c-7e4d2a1203f5")
+		(property "Reference" "D39"
+			(at 194.31 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66ad5a8-9458-4d1d-97f0-634ebf357546")
+		)
+		(pin "2"
+			(uuid "741eab71-68fb-4c0a-ac24-07de9d1115f6")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fdd908-0a57-4546-bc5b-da93a21f215d")
+		(property "Reference" "D18"
+			(at 168.91 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89b2dc63-e43c-44ac-b320-612cb2c144ce")
+		)
+		(pin "2"
+			(uuid "66aefd5f-5431-4568-bb7e-179c87e6a103")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5055159-0996-459c-940e-8d94d77c4f87")
+		(property "Reference" "D17"
+			(at 163.83 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 105.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb92c3dc-6813-473b-90fa-0ab944faef4c")
+		)
+		(pin "2"
+			(uuid "2b8bd1c6-6367-44a3-8510-9316be40ae18")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62e4828-a3a7-42cf-b09e-8feef4729e2d")
+		(property "Reference" "D6"
+			(at 189.23 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 189.23 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9762a401-8c0c-4974-8fe7-e47304378931")
+		)
+		(pin "2"
+			(uuid "57249260-b45b-4676-8b1b-cd24984ec5fa")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef23bc08-b0b7-492c-b6ce-40fb3bb3c896")
+		(property "Reference" "D3"
+			(at 173.99 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b867602-408d-4773-a631-f2e558af473f")
+		)
+		(pin "2"
+			(uuid "56463626-b81f-45fa-b2ac-5bb75420697a")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 128.27 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f67b1f1c-bba8-4dba-b5d8-742959e58ad8")
+		(property "Reference" "U2"
+			(at 130.4641 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 130.4641 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5ca15d1-c2a7-4d88-b179-8def57957d16")
+		)
+		(pin "6"
+			(uuid "01ece51b-2e6f-4b5b-80a0-160ecb16d5e1")
+		)
+		(pin "11"
+			(uuid "3e0ce81a-2c8b-46d5-a145-29e1374de8b6")
+		)
+		(pin "5"
+			(uuid "f530b905-da83-4bbf-bb89-e5983c755e8b")
+		)
+		(pin "1"
+			(uuid "123b9220-729c-43cd-94ed-d9cfb6a548d6")
+		)
+		(pin "9"
+			(uuid "4bd46603-c3b5-42d9-9186-f97277d2146b")
+		)
+		(pin "10"
+			(uuid "4041fd3a-0877-4a72-9cf6-3b35d3f24fe7")
+		)
+		(pin "4"
+			(uuid "a20f22e4-897b-4b76-a696-86b46dcae524")
+		)
+		(pin "7"
+			(uuid "b5f37726-388f-46ed-b9ce-6ced5091e871")
+		)
+		(pin "14"
+			(uuid "239b1281-d520-40e0-9a1f-3bd6a09250e1")
+		)
+		(pin "8"
+			(uuid "8220cf09-6baa-4264-80c7-f4873e08e3f1")
+		)
+		(pin "2"
+			(uuid "a3df339c-b9eb-451c-9777-b7547c91405e")
+		)
+		(pin "15"
+			(uuid "53c55d08-8e92-495e-a670-ca721f6f80df")
+		)
+		(pin "13"
+			(uuid "8dfcc2ec-8373-49fb-ae36-723384a946d6")
+		)
+		(pin "16"
+			(uuid "32763015-555c-4fb7-842d-76d877d70a99")
+		)
+		(pin "12"
+			(uuid "ad9eb328-29a7-42c2-8b35-830cf337b775")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6bca926-3fb7-48e8-b6fd-eb57ef30c6dc")
+		(property "Reference" "R4"
+			(at 157.48 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 157.48 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 157.48 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "664f5ccb-a90a-42fc-b21a-9fa1ccb791b0")
+		)
+		(pin "2"
+			(uuid "9ef5516d-0af5-4d42-afb5-6428c05a54d7")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ec8b8d-8261-4178-9fe9-6b2c0485b742")
+		(property "Reference" "D50"
+			(at 168.91 144.4624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94f31f20-b72d-4aad-a237-ad97fe63c460")
+		)
+		(pin "2"
+			(uuid "4eb0641c-8972-49c6-ad48-2e4ae22f12bc")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4cb517-adce-437b-bbe6-95fa31adac61")
+		(property "Reference" "D33"
+			(at 163.83 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5554/CTL1206DRD3T.pdf"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56a7d2e5-09f5-4df6-ab0e-33fd629420dc")
+		)
+		(pin "2"
+			(uuid "5e10705d-069e-436c-ad15-01afc72640f7")
+		)
+		(instances
+			(project "ledMatrixUSBdrive"
+				(path "/c5147268-b0db-40ca-bf3f-a068d41b2c39"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
