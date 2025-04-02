@@ -1,0 +1,9 @@
+Project start date: 3/2025
+The goal of this project is to learn PCB design using KiCad. 
+The specfic goal of this project is to build a PCB that plugs into a USB port and using the power lines from the USB device, it will power a ATtiny84 that controls two shift registers which controls the 8x8 led matrix. 
+
+Please check out the images/ for schematic images and pcb 3d layout images. :)
+
+I would like to create a library for various different animations. And eventually even be able to install custom libraries for custom animations for friends and family. 
+
+If you would like to talk about this project, maybe give some advice or ask questions, feel free to send me an email at gaugehasbrouck@gmail.com
